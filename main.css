@@ -120,7 +120,7 @@ nav {
 .overlay
 {
     width: 0;
-    weight: 0;
+    height: 0;
     border-top: 500px solid #fff;
     border-right: 500px solid transparent;
     border-bottom: 500px solid #fff;
