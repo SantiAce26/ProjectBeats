@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Its a website</title>
+    <link rel="stylesheet" href="main.css">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+
+        .column {
+            float: left;
+            width: 20%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+            align-self: center;
+        }
+        .about-section {
+            padding: 40px;
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+            background-color: ghostwhite;
+        }
+
+        .title {
+            color: grey;
+            font-size: 18px;
+        }
+
+            .container {
+            padding: 0 16px;
+        }
+
+        .container::after, .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="logo">
+                <img src="images\logo.png">
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="current"><a href="about.html">About Us</a></li>
+                    <li><a href="music.html">Generate Music</a></li>
+                    <li><a href="#">Cart</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="about-section">
+            <h1>About Us</h1>
+            <p>What is up Knight Hacks 2020! We are Naked Knights and this is our hack.</p>
+            <p>We've made a website that allows a user to create music using Machine Learning!</p>
+        </div>
+
+        <h2 style="text-align:center">Our Team</h2>
+
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="images\headshots\santi.png" alt="Santi" style="width:100%">
+                    <div class="container">
+                        <h2>Santiago Ascevedo</h2>
+                        <p class="title">AI Scientist</p>
+                        <p>Motherfucker is mean and lean. AI, Machine Learning, or making stir fry, he won't let you down.
+                        </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="images\headshots\chris.png" alt="Chris" style="width:100%">
+                <div class="container">
+                    <h2>Chris "Gaylord" Nguyen</h2>
+                    <p class="title">Frontend Dev</p>
+                    <p>You can describe yourself Chris.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="images\headshots\daniel.png" alt="Dani" style="width: 100%">
+                <div class="container">
+                    <h2>Daniel Rangel Garcia</h2>
+                    <p class="title">Helper Guy</p>
+                    <p>Aerospace major who is able to write in HTML apparently.</p>
+                </div>
+            </div>
+        </div>
+   
+
+        <div class="column">
+            <div class="card">
+                <img src="images\headshots\jessa.png" alt="Jessa" style="width:100%">
+                <div class="container">
+                    <h2>Jessa Ecle</h2>
+                    <p class="title">Network Genius</p>
+                    <p>Backend GOD</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+    </div>
+</body>
+</html>
