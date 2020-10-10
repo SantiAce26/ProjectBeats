@@ -8,7 +8,7 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(to bottom, #000000, #C0C0C0);
+    background: linear-gradient(to right, #dc3545, #ffc107);
 }
 nav {
     width: 80%;
@@ -23,7 +23,8 @@ nav {
 }
 
 .logo img {
-    width: 150px;
+    width: 200px;
+    align-items: center;
 }
 
 .nav-links{
@@ -39,6 +40,15 @@ nav {
     color: #fff;
     text-decoration: none;
 }
+nav .current a{
+    color: #fff;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #fff;
+    font-weight: bold;
+}
+
 .information
 {
     width: 1000px;
@@ -103,6 +113,7 @@ nav {
     right: 10%;
     top: 50%;
     transform: translateY(-50%);
+    text-align: center;
 }
 .controls h3{
     margin: 15px 0;
