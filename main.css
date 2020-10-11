@@ -153,8 +153,7 @@ nav a:hover{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    transform: translateY(2000%);
-    width: 3%;
+    transform: translateY(3000%);
 }
 
 #cat{
@@ -163,10 +162,6 @@ nav a:hover{
     margin-left: auto;
     margin-right: auto;
 }
-
-
-
-
 
 
 
