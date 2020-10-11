@@ -8,7 +8,6 @@
         <link rel = "stylesheet" href = "main.css">
         <!-- Load @magenta/music -->
     <script src="https://cdn.jsdelivr.net/npm/@magenta/music@1.0.0"></script>
-
     <!-- Place your code in the script tag below. You can also use an external .js file -->
     <script>
       // Instantiate the model by loading the desired checkpoint.
@@ -32,10 +31,10 @@
     </head>
         <body>
             <div class ="main">
-                <button id="start" onclick="start()">Start</button>
+                <button id="start" onclick="start()">Play Music</button>
                 <nav>
                     <div class = "logo">
-                        <img src = "images\logo.png">
+                        <a href = "index.html"><img src="images\logo.png"></a>
                     </div>
                     <div class = "nav-links">
                         <ul>
@@ -45,6 +44,11 @@
                         </ul>
                     </div>
                 </nav>
+                <div class = "gif">
+                    <img src = "images/dancingcat.gif" height = "256" width = "450" id = "cat">
+                </div>
+               
+                
             
         </body>
 <html>

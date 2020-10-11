@@ -9,7 +9,7 @@
             <div class ="main">
                 <nav>
                     <div class = "logo">
-                        <img src = "images\images\logo.png">
+                        <a href = "index.html"><img src="images\logo.png"></a>
                     </div>
                     <div class = "nav-links">
                         <ul>
@@ -19,31 +19,37 @@
                         </ul>
                     </div>
                 </nav>
-
                 <div class ="information">
                     <div class ="overlay"></div>
-                    <img src ="images\piano.png" class = "piano">
+                    <img src ="images\headphone.png" class = "headphone">
                     <div id ="circle">
                         <div class ="feature one">
-                            <img src = "images\camera.png">
+                            <img src = "images\note.png">
                             <div>
-                                <h1>Camera</h1>
-                                <p>Description</p>
+                                <h1>Project Beats</h1>
+                                <p>Created October 9, 2020 for KnightHacks</p>
                             </div>
                         </div>
                         <div class ="feature two">
-                            <img src = "images\note.png">
+                            <img src = "images\drum.png">
                             <div>
-                                <h1>Note</h1>
-                                <p>Description</p>
+                                <h1>Instruments</h1>
+                                <p>Uses drums, guitar, piano, and more</p>
                             </div>
                         </div>
                            
                         <div class ="feature three">
-                            <img src = "images\x.png">
+                            <img src = "images\wave.png">
                             <div>
-                                <h1>X</h1>
-                                <p>Description</p>
+                                <h1>Open AI Magenta</h1>
+                                <p>Randomly generates music</p>
+                            </div>
+                        </div>
+                        <div class = "feature four">
+                            <img src = "images\gear.png">
+                            <div>
+                                <h1>How was it built?</h1>
+                                <p>CSS/HTML/JavaScript</p>
                             </div>
                         </div>
                            
@@ -52,7 +58,7 @@
 
                 <div class ="controls">
                     <img src = "images\arrow.png" id = "upBtn">
-                    <h3>Product Features</h3>
+                    <h3>Features</h3>
                     <img src = "images\arrow.png" id = "downBtn">
                 </div>
             
@@ -61,9 +67,10 @@
             var circle = document.getElementById("circle");
             var upBtn = document.getElementById("upBtn");
             var downBtn = document.getElementById("downBtn");
-
+           
             var rotateValue = circle.style.transform;
             var rotateSum;
+
 
             upBtn.onclick = function()
             {
