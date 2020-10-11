@@ -148,13 +148,16 @@ nav a:hover{
     top: 0;
 }
 
-#start {
-    text-align: center;
-    display: block;
+#play {
     margin-left: auto;
     margin-right: auto;
-    transform: translateY(3000%);
+    display: block;
+    text-align: center;
+    width: 10%;
+    transform: translateY(3100%);
+    
 }
+
 
 #cat{
     text-align: center;
@@ -162,6 +165,7 @@ nav a:hover{
     margin-left: auto;
     margin-right: auto;
 }
+
 
 
 
