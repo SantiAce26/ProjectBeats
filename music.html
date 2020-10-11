@@ -8,7 +8,6 @@
         <link rel = "stylesheet" href = "main.css">
         <!-- Load @magenta/music -->
     <script src="https://cdn.jsdelivr.net/npm/@magenta/music@1.0.0"></script>
-    <script type='text/javascript' src='//www.midijs.net/lib/midi.js'></script>
 
     <!-- Place your code in the script tag below. You can also use an external .js file -->
     <script>
@@ -33,7 +32,15 @@
     </head>
         <body>
             <div class ="main">
-                <button id="start" onclick="start()">Play Music</button>
+                <div class="music">
+                    <audio id ="randomMusic" src="generated/2020-10-10_180813_01.mp3" loop = "true"></audio>
+                    <div>
+                        <button id = "play" onclick = "document.getElementById('randomMusic').play()">Play</button>
+                        <button id = "play" onclick = "document.getElementById('randomMusic').pause()">Pause</button>
+                        <button id = "play" onclick = "document.getElementById('randomMusic').volume += 0.1">Vol+</button>
+                        <button id = "play" onclick = "document.getElementById('randomMusic').volume -= 0.1">Vol-</button>
+                    </div>
+                </div>
                 <nav>
                     <div class = "logo">
                         <a href = "index.html"><img src="images\logo.png"></a>
@@ -46,38 +53,11 @@
                         </ul>
                     </div>
                 </nav>
-            
                 <div class = "gif">
-                    <img src = "images/dancingcat.gif" height = "250" width = "400" id = "cat">
+                    <img src = "images/dancingcat.gif" height = "256" width = "450" id = "cat">
                 </div>
-
-                <div class = "disney">
-                <section> 
-                    <h2>Disney</h2>
-                    <p>Disney is soooooo expensive wtf</p>
-                </section>
-                </div>
-     
-                <div class = "videogames">
-                <section>
-                    <h2>Video Game</h2>
-                    <p>among us VR when</p>
-                </section>
-                </div>
-
-                <div class = "Halloween">
-                <section>
-                    <h2>Spooky Scary Songs</h2>
-                    <p>Spooky Scary Skeletons Sends Shivers Down Your Spine</p>
-                </section>
-                </div>
-
-                <div class = "Christmas">
-                <section>
-                    <h2>Christmas</h2>
-                    <p>It's Christmas according to Capitalism right now</p>
-                </section>
-                </div>
-
+               
+                
+            
         </body>
 <html>
