@@ -4,10 +4,10 @@ Welcome to ProjectBeats! This is our project for KnightHacks 2020. It is a websi
 Here is our website:
 https://improvstudio.tech/
 
-###Languages Used
+<b>Languages Used</b>
 HTML, CSS, and JavaScript
 
-###Our Tools
+<b>Our Tools</b>
 Magenta was used to randomly generate based on certain soundtracks (Video Game, Disney, Halloween, Christmas).
 
 Our website was programmed on Visual Studio Code.
