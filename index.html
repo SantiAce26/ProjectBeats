@@ -9,7 +9,7 @@
             <div class ="main">
                 <nav>
                     <div class = "logo">
-                        <img src = "images\logo.png">
+                        <a href = "index.html"><img src="images\logo.png"></a>
                     </div>
                     <div class = "nav-links">
                         <ul>
@@ -42,15 +42,15 @@
                         <div class ="feature three">
                             <img src = "images\wave.png">
                             <div>
-                                <h1>Open AI JukeBox</h1>
-                                <p>Randomly generates music based off of artists</p>
+                                <h1>Open AI Magenta</h1>
+                                <p>Randomly generates music</p>
                             </div>
                         </div>
                         <div class = "feature four">
                             <img src = "images\gear.png">
                             <div>
-                                <h1>How was it created?</h1>
-                                <p>Built using CSS/HTML/JavaScript</p>
+                                <h1>How was it built?</h1>
+                                <p>CSS/HTML/JavaScript</p>
                             </div>
                         </div>
                            
@@ -68,9 +68,10 @@
             var circle = document.getElementById("circle");
             var upBtn = document.getElementById("upBtn");
             var downBtn = document.getElementById("downBtn");
-
+           
             var rotateValue = circle.style.transform;
             var rotateSum;
+
 
             upBtn.onclick = function()
             {
