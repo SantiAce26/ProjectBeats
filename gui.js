@@ -14,7 +14,7 @@
         "songsGenerated/2020-10-10_223234_2.mp3"
     ];
     var i = 0;
-    shuffle(files);
+    
     var music_player =document.querySelector("#music audio");
 
     function next(){
