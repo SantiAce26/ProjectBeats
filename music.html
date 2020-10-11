@@ -8,7 +8,6 @@
         <link rel = "stylesheet" href = "main.css">
         <!-- Load @magenta/music -->
     <script src="https://cdn.jsdelivr.net/npm/@magenta/music@1.0.0"></script>
-
     <!-- Place your code in the script tag below. You can also use an external .js file -->
     <script>
       // Instantiate the model by loading the desired checkpoint.
@@ -32,15 +31,7 @@
     </head>
         <body>
             <div class ="main">
-                <div class="music">
-                    <audio id ="randomMusic" src="generated/2020-10-10_180813_01.mp3" loop = "true"></audio>
-                    <div>
-                        <button id = "play" onclick = "document.getElementById('randomMusic').play()">Play</button>
-                        <button id = "play" onclick = "document.getElementById('randomMusic').pause()">Pause</button>
-                        <button id = "play" onclick = "document.getElementById('randomMusic').volume += 0.1">Vol+</button>
-                        <button id = "play" onclick = "document.getElementById('randomMusic').volume -= 0.1">Vol-</button>
-                    </div>
-                </div>
+                <button id="start" onclick="start()">Play Music</button>
                 <nav>
                     <div class = "logo">
                         <a href = "index.html"><img src="images\logo.png"></a>
